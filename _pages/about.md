@@ -13,7 +13,7 @@ Before Stanford, I received my A.B. in Physics from Princeton University, with c
 
 I am grateful to be supported by the NSF Graduate Research Fellowship and the Stanford Graduate Fellowship.
 
-</br>
+<br>
 
 Publications
 ======
@@ -32,7 +32,7 @@ B. Bartlett, **O.Y. Long**, A. Dutt, and S. Fan, “Programmable photonic system
 
 **O.Y. Long**, G. Sai Gautam, and E.A. Carter, “Evaluating optimal U for 3d transition-metal oxides within the SCAN+U framework,” Phys. Rev. Mater., 4, 045401 (2020).
 
-</br>
+<br>
 
 Selected Awards
 ======
@@ -47,7 +47,7 @@ Engineering Physics Thesis Prize from Princeton University (2020)
 
 Research Science Institute Scholar (2015)
 
-</br>
+<br>
 
 Contact
 ======
