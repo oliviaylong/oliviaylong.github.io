@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a 4th year PhD student advised by Professor Shanhui Fan at Stanford University. My research I am broadly interested in ....
+Hello! I am a 4th year PhD student advised by Professor [Shanhui Fan] (https://fangroup.stanford.edu/) at Stanford University. My research thus far includes designing nanophotonic metamaterials for optical computing and imaging applications, as well as simulating new physical phenomena using synthetic frequency dimensions.
 
-Before Stanford, I received my A.B. in Physics from Princeton University, with certificates in Engineering Physics and Computer Science (2020). I was fortunate to be advised by Professor Emily Carter and received the Engineering Physics Thesis Prize upon graduation. In 2023, I received my M.S. in Electrical Engineering from Stanford University, concentrating in Physical Technology.
+Before Stanford, I received my A.B. in Physics from Princeton University, with certificates in Engineering Physics and Computer Science (2020). I was fortunate to be advised by Professor [Emily Carter] (https://carter.princeton.edu/) and received the Engineering Physics Thesis Prize upon graduation. In 2023, I received my M.S. in Electrical Engineering from Stanford University, concentrating in Physical Technology.
 
 I am grateful to be supported by the NSF Graduate Research Fellowship and the Stanford Graduate Fellowship.
 
@@ -49,4 +49,5 @@ Contact
 ======
 
 olong@stanford.edu 
+
 Please contact me for CV or research inquiries. Happy to chat!
