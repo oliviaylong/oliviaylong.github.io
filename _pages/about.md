@@ -7,12 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a 4th year PhD student advised by Professor [Shanhui Fan] (https://fangroup.stanford.edu/) at Stanford University. My research thus far includes designing nanophotonic metamaterials for optical computing and imaging applications, as well as simulating new physical phenomena using synthetic frequency dimensions.
+Hello! I am a 4th year PhD student advised by Professor [Shanhui Fan](https://fangroup.stanford.edu/) at Stanford University. My research thus far includes designing nanophotonic metamaterials for optical computing and imaging applications, as well as simulating new physical phenomena using synthetic frequency dimensions.
 
-Before Stanford, I received my A.B. in Physics from Princeton University, with certificates in Engineering Physics and Computer Science (2020). I was fortunate to be advised by Professor [Emily Carter] (https://carter.princeton.edu/) and received the Engineering Physics Thesis Prize upon graduation. In 2023, I received my M.S. in Electrical Engineering from Stanford University, concentrating in Physical Technology.
+Before Stanford, I received my A.B. in Physics from Princeton University, with certificates in Engineering Physics and Computer Science (2020). I was fortunate to be advised by Professor [Emily Carter](https://carter.princeton.edu/) and received the Engineering Physics Thesis Prize upon graduation. In 2023, I received my M.S. in Electrical Engineering from Stanford University, concentrating in Physical Technology.
 
 I am grateful to be supported by the NSF Graduate Research Fellowship and the Stanford Graduate Fellowship.
 
+</br>
 Publications
 ======
 
@@ -30,7 +31,7 @@ B. Bartlett, **O.Y. Long**, A. Dutt, and S. Fan, “Programmable photonic system
 
 **O.Y. Long**, G. Sai Gautam, and E.A. Carter, “Evaluating optimal U for 3d transition-metal oxides within the SCAN+U framework,” Phys. Rev. Mater., 4, 045401 (2020).
 
-
+</br>
 Selected Awards
 ======
 
@@ -44,7 +45,7 @@ Engineering Physics Thesis Prize from Princeton University (2020)
 
 Research Science Institute Scholar (2015)
 
-
+</br>
 Contact
 ======
 
