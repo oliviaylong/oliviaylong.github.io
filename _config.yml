@@ -25,7 +25,7 @@ author:
   name             : "Olivia Y. Long"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Applied Physics"
-  location         : "Stanford, USA"
+  location         : #"Stanford, USA"
   employer         : "Stanford University"
   uri              : # URL
   email            : "olong@stanford.edu" 
