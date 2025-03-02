@@ -17,6 +17,14 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
+  <script type="text/javascript" async
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+    </script>
+  <script type="text/javascript" async
+  id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
