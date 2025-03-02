@@ -3,6 +3,7 @@ layout: archive
 permalink: /posts/
 title: "Blog"
 author_profile: true
+use_math: true
 
 ---
 
