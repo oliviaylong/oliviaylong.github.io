@@ -50,14 +50,15 @@
   .teaser-left .archive__item-teaser {
     flex: 0 0 240px;
     max-width: 240px;
+    max-width: none;
   }
   
   .teaser-left .archive__item-teaser img {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: contain; /* use "cover" if you want uniform crop */
-    border-radius: 4px;
+    object-fit: cover; /* use "cover" if you want uniform crop */
+    border: 2px solid red;
   }
   
   .teaser-left .archive__item-text {
