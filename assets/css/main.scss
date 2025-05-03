@@ -43,26 +43,25 @@
 .teaser-left .teaser-text-wrapper {
     display: flex;
     gap: 1.5rem;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 2rem;
   }
   
   .teaser-left .archive__item-teaser {
-    flex: 0 0 240px;
-    max-width: 240px;
-    max-width: none;
+    width: 220px;
+    height: 150px;
+    flex: 0 0 220px;
   }
   
   .teaser-left .archive__item-teaser img {
     width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover; /* use "cover" if you want uniform crop */
-    border: 2px solid red;
-  }
+    height: 100%;
+    object-fit: cover;
+  }  
   
   .teaser-left .archive__item-text {
     flex: 1;
     min-width: 0;
+    max-width: calc(100% - 260px); /* leaves room for image + padding */
   }
   
