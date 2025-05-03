@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-11-01-nonrecip-scint
 excerpt: 'Scintillation represents a promising platform for exploring emission that is both nonequilibrium and nonreciprocal. In this work, we propose a nonreciprocal scintillator using a one-dimensional magnetophotonic crystal in the Voigt configuration.'
 date: 2024-11-01
-venue: 'Physical Review APplied'
+venue: 'Physical Review Applied'
 paperurl: 'https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.054062'
 citation: 'O. Y. Long, S. Pajovic, C. Roques-Carmes, Y. Tsurimaki, N. Rivera, M. Soljačić, S. V. Boriskina, and S. Fan, "Nonreciprocal scintillation using one-dimensional magneto-optical photonic crystals," <i>Physical Review Applied</i> <b>22</b>, 054062 (2024).'
 
