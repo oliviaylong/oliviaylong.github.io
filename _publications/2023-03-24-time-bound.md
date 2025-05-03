@@ -6,7 +6,7 @@ excerpt: 'We demonstrate that time reflection and refraction can be observed in 
 date: 2023-03-24
 venue: 'Physical Review Research'
 paperurl: 'https://journals-aps-org/prresearch/abstract/10.1103/PhysRevResearch.5.L012046'
-citation: 'O. Y. Long, K. Wang, A. Dutt, and S. Fan, "Time reflection and refraction in synthetic frequency dimension," <i>Physical Review Research<i> **5**, L012046 (2023).'
+citation: 'O. Y. Long, K. Wang, A. Dutt, and S. Fan, "Time reflection and refraction in synthetic frequency dimension," <i>Physical Review Research<i> <b>5<b>, L012046 (2023).'
 
 ---
 
