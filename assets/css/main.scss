@@ -40,25 +40,28 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.teaser-left .archive__item-teaser {
-    flex: 0 0 180px;     /* Image block gets 180px width */
-    max-width: 180px;
-  }
-
 .teaser-left .teaser-text-wrapper {
     display: flex;
-    gap: 1.25rem;
+    gap: 1.5rem;
     align-items: flex-start;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
   
-  .archive__item-teaser img {
+  .teaser-left .archive__item-teaser {
+    flex: 0 0 240px;
+    max-width: 240px;
+  }
+  
+  .teaser-left .archive__item-teaser img {
     width: 100%;
     height: auto;
+    display: block;
+    object-fit: contain; /* use "cover" if you want uniform crop */
     border-radius: 4px;
-    object-fit: cover;
   }
   
-  .archive__item-text {
+  .teaser-left .archive__item-text {
     flex: 1;
+    min-width: 0;
   }
+  
