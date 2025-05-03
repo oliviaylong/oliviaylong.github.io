@@ -55,6 +55,7 @@
           <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
         {% endif %}
 
+        {% comment %}
         {% if post.citation and post.paperurl %}
           <p>Citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
         {% elsif post.citation %}
@@ -62,6 +63,7 @@
         {% elsif post.paperurl %}
           <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
         {% endif %}
+        {% endcomment %}
       </div> <!-- .archive__item-text -->
     </div> <!-- .teaser-text-wrapper -->
   </article>
