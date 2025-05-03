@@ -49,7 +49,7 @@
   
   .teaser-left .archive__item-teaser {
     width: 220px;
-    height: 150px;
+    height: auto; /* make sure this is NOT fixed */
     flex: 0 0 220px;
   }
   
