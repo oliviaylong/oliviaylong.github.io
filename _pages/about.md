@@ -22,7 +22,7 @@ Selected Publications
 {% include base_path %}
 
 <div class="homepage-pubs">
-  {% for post in site.publications sort: "date" reversed limit: 5 %}
+  {% for post in site.publications reversed limit: 5 %}
     {% include archive-single.html %}
   {% endfor %}
 </div>
