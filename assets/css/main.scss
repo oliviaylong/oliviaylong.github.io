@@ -112,10 +112,6 @@
     object-fit: contain;  /* or use 'cover' if cropping is okay */
   }
 
-  {% if post.abstract_text %}
-    <a href="#" class="toggle-abstract" onclick="event.preventDefault(); this.nextElementSibling.classList.toggle('show');">abstract</a>
-    <div class="abstract-text">{{ post.abstract_text }}</div>
-  {% endif %}
 
   .toggle-abstract {
     margin-left: 0.5rem;
@@ -124,4 +120,17 @@
   
   .toggle-abstract:hover {
     text-decoration: underline;
+  }
+
+  .abstract-text {
+    display: none;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: #444;
+    line-height: 1.4;
+    max-width: 600px;
+  }
+  
+  .abstract-text.show {
+    display: block;
   }
