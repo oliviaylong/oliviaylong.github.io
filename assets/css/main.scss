@@ -70,15 +70,17 @@
   }
 
   .homepage-pubs {
-    font-size: 0.9rem;  /* Adjust as needed: try 0.85rem or 14px */
+    font-size: 0.9rem;
     line-height: 1.4;
   }
   
   .homepage-pubs .archive__item-title {
-    font-size: 1rem;
+    font-size: 1rem;   // small reduction, feel free to test 1rem
+    line-height: 1.3;
     margin-bottom: 0.3rem;
   }
   
   .homepage-pubs .archive__item-excerpt {
     font-size: 0.85rem;
+    color: #555;           // optional: softer tone for excerpt
   }
