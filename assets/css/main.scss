@@ -98,10 +98,30 @@
     text-decoration: underline;
   }
   
+  .archive__item-teaser {
+    flex-shrink: 0;
+    max-width: 180px;
+    margin-right: 1rem;
+  }
+  
   .archive__item-teaser img {
-    max-width: 160px;  /* Increase width */
-  height: auto;
-  border-radius: 4px;
-  object-fit: contain;
-  margin-top: 0.2rem;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    object-fit: contain;  /* or use 'cover' if cropping is okay */
+  }
+
+  {% if post.abstract_text %}
+    <a href="#" class="toggle-abstract" onclick="event.preventDefault(); this.nextElementSibling.classList.toggle('show');">abstract</a>
+    <div class="abstract-text">{{ post.abstract_text }}</div>
+  {% endif %}
+
+  .toggle-abstract {
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .toggle-abstract:hover {
+    text-decoration: underline;
   }

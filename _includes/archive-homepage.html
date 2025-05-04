@@ -33,6 +33,10 @@
         {% if post.abstracturl %}<a href="{{ post.abstracturl }}">abstract</a>{% endif %}
         {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">bibtex</a>{% endif %}
         {% if post.video %}<a href="{{ post.video }}">video</a>{% endif %}
+        {% if post.abstract_text %}
+            <a href="#" class="toggle-abstract" onclick="event.preventDefault(); this.nextElementSibling.classList.toggle('show');">abstract</a>
+            <div class="abstract-text">{{ post.abstract_text }}</div>
+        {% endif %}
       </div>
     </div>
 
