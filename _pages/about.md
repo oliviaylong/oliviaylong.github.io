@@ -16,12 +16,12 @@ I am grateful to be supported by the NSF Graduate Research Fellowship and the St
 
 <br>
 
-Publications
+Selected Publications
 ======
 
 {% include base_path %}
 
-{% for post in site.publications limit:5 %}
+{% for post in site.publications sort: "date" reversed limit: 5 %}
   {% include archive-single.html %}
 {% endfor %}
 
