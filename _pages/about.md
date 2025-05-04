@@ -16,10 +16,9 @@ I am grateful to be supported by the NSF Graduate Research Fellowship and the St
 
 <br>
 
-Selected Publications
+## Selected Publications
 
-======
-<p><small><a href="{{ '/publications/' | relative_url }}">See full research overview →</a></small></p>
+[See full research overview →]({{ '/research/' | relative_url }})
 
 {% include base_path %}
 
@@ -47,8 +46,8 @@ Selected Publications
 {% endcomment %}
 <br>
 
-Selected Awards
-======
+## Selected Awards
+
 
 * Best Student Paper at Optica Imaging Congress (2023)
 
@@ -62,8 +61,7 @@ Selected Awards
 
 <br>
 
-Contact
-======
+## Contact
 
 olong@stanford.edu 
 
