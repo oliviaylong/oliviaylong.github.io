@@ -24,7 +24,7 @@ I am grateful to be supported by the NSF Graduate Research Fellowship and the St
 
 <div class="homepage-pubs">
   {% for post in site.publications reversed limit: 5 %}
-    {% include archive-single.html %}
+    {% include archive-homepage.html %}
   {% endfor %}
 </div>
 

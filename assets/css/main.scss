@@ -71,21 +71,20 @@
 
 
   .homepage-pubs .archive__item-title {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 600;
     line-height: 1.3;
     margin: 0 0 0.2rem;
   }
   
   .homepage-pubs .page__meta {
-    font-size: 0.85rem;
+    font-size: 0.65rem;
     font-style: normal;
-    color: #444;
     margin-bottom: 0.3rem;
   }
   
   .homepage-pubs .links-row {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-top: 0.2rem;
     color: #0072CE;
   }
@@ -100,8 +99,9 @@
   }
   
   .archive__item-teaser img {
-    max-width: 120px;
-    height: auto;
-    border-radius: 4px;
-    object-fit: contain;
+    max-width: 160px;  /* Increase width */
+  height: auto;
+  border-radius: 4px;
+  object-fit: contain;
+  margin-top: 0.2rem;
   }
