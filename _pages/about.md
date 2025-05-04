@@ -21,9 +21,11 @@ Selected Publications
 
 {% include base_path %}
 
-{% for post in site.publications reversed limit: 5 %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="homepage-pubs">
+  {% for post in site.publications sort: "date" reversed limit: 5 %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 
 {% comment %}
 * B. Bartlett, **O.Y. Long**, A. Dutt, and S. Fan, “Programmable photonic system for quantum simulation in arbitrary topologies,” APL Quantum, in press (2024).
