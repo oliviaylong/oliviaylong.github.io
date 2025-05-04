@@ -18,7 +18,7 @@ I am grateful to be supported by the NSF Graduate Research Fellowship and the St
 
 ## Selected Publications
 
-[See full research overview →]({{ '/research/' | relative_url }})
+[See full research overview →]({{ '/publications/' | relative_url }})
 
 {% include base_path %}
 
