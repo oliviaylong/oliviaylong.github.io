@@ -69,18 +69,39 @@
     font-style: italic;
   }
 
-  .homepage-pubs {
-    font-size: 0.9rem;
-    line-height: 1.4;
+
+  .homepage-pubs .archive__item-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 0.2rem;
   }
   
-  .homepage-pubs .archive__item-title {
-    font-size: 1rem;   // small reduction, feel free to test 1rem
-    line-height: 1.3;
+  .homepage-pubs .page__meta {
+    font-size: 0.85rem;
+    font-style: normal;
+    color: #444;
     margin-bottom: 0.3rem;
   }
   
-  .homepage-pubs .archive__item-excerpt {
-    font-size: 0.85rem;
-    color: #555;           // optional: softer tone for excerpt
+  .homepage-pubs .links-row {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    color: #0072CE;
+  }
+  
+  .links-row a {
+    margin-right: 0.6rem;
+    text-decoration: none;
+  }
+  
+  .links-row a:hover {
+    text-decoration: underline;
+  }
+  
+  .archive__item-teaser img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 4px;
+    object-fit: contain;
   }
