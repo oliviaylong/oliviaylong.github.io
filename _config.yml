@@ -211,6 +211,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  studynotes:                # ← NEW
+    output: true
+    permalink: /studynotes/:path/
 
 
 # Defaults
@@ -251,6 +254,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _studynotes
+  - scope:
+      path: ""
+      type: studynotes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true   # or true if you want
   # _portfolio
   - scope:
       path: ""
