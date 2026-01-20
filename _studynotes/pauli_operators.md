@@ -14,17 +14,17 @@ One of the basic questions in physics is to ask what symmetries are present in a
 
 In this note, I review Pauli operator algebra and how using such relations can be used to check/find symmetries of quantum spin Hamiltonians.
 
-A given Hamiltonian $H$ has a symmetry if it commutes with some symmetry transformation $S$. We can start with a simple system of 3 spins described by the following Hamiltonian:
+A given Hamiltonian $$H$$ has a symmetry if it commutes with some symmetry transformation $$S$$. We can start with a simple system of 3 spins described by the following Hamiltonian:
 
 $$H = -h \sum_{i \in {1, 2, 3}} \sigma_x + -J \sum_{\langle ij\rangle} \sigma_z^{(i)} \sigma_z^{(j)}$$
 
 We can show that this Hamiltonian is symmetric under the transformation: $\hat{P}_x = \sigma_x^{(1)} \sigma_x^{(2)} \sigma_x^{(3)}$, which flips the spin of all 3 sites.
 
-> Note: $\sigma_x$ is a spin flip because: $$\sigma_x = \begin{matrix}
+> Note: $$\sigma_x$$ is a spin flip because: $$\sigma_x = \begin{matrix}
 0 & 1 \\
 1 & 0
-\end{matrix} $$ thus $\sigma_x |\uparrow \rangle = |\downarrow \rangle$ and $\sigma_x |\downarrow \rangle = |\uparrow \rangle$
+\end{matrix} $$ thus $$\sigma_x |\uparrow \rangle = |\downarrow \rangle$$ and $$\sigma_x |\downarrow \rangle = |\uparrow \rangle$$
 
-Let's first consider $P_x$ for a single site. We want to show that $[P_x, H] = 0$. 
+Let's first consider $$P_x$$ for a single site. We want to show that $$[P_x, H] = 0$$. 
 
 Useful references:
