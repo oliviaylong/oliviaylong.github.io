@@ -6,7 +6,7 @@ topic: Physics
 date: 2026-01-20
 toc: true
 toc_sticky: true
-categories: [Physics] [Quantum]
+categories: [Physics, Quantum]
 excerpt: "Notes on Hamiltonian symmetries of quantum spin systems and a review of Pauli spin operator algebra. I also walk through the Jordan-Wigner transform."
 ---
 
