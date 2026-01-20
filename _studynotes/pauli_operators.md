@@ -1,7 +1,7 @@
 ---
 title: "Hamiltonian symmetries of quantum spin systems"
 collection: studynotes
-math: true
+use_math: true
 topic: Physics
 date: 2026-01-20
 toc: true
@@ -20,7 +20,7 @@ $$H = -h \sum_{i \in {1, 2, 3}} \sigma_x + -J \sum_{\langle ij\rangle} \sigma_z^
 
 We can show that this Hamiltonian is symmetric under the transformation: $\hat{P}_x = \sigma_x^{(1)} \sigma_x^{(2)} \sigma_x^{(3)}$, which flips the spin of all 3 sites.
 
-> $\sigma_x$ is a spin flip because: $$\sigma_x = \begin{matrix}
+> Note: $\sigma_x$ is a spin flip because: $$\sigma_x = \begin{matrix}
 0 & 1 \\
 1 & 0
 \end{matrix} $$ thus $\sigma_x |\uparrow \rangle = |\downarrow \rangle$ and $\sigma_x |\downarrow \rangle = |\uparrow \rangle$
