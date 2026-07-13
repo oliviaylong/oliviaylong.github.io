@@ -31,6 +31,9 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.highlight %}
+        <span style="display:inline-block; margin-left:0.5em; padding:0.15em 0.6em; font-size:0.6em; font-weight:600; letter-spacing:0.03em; text-transform:uppercase; vertical-align:middle; color:#8a6d00; background-color:#fff3cd; border:1px solid #ffe08a; border-radius:1em;"><i class="fa fa-star" aria-hidden="true"></i> Highlighted Talk</span>
+      {% endif %}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
