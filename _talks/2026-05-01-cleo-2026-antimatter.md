@@ -3,9 +3,11 @@ title: "Optical Antimatter using Passive Lossy Materials under Complex Frequency
 collection: talks
 type: "Conference talk"
 permalink: /talks/2026-05-01-cleo-2026-antimatter
-venue: "CLEO 2026 (Conference on Lasers and Electro-Optics), Fundamental Science - Non-Hermitian Material and Nonlocal Metasurfaces (FW1E)"
-date: 2026-05-01
-location: "Long Beach, California, United States"
+venue: "CLEO 2026 (Conference on Lasers and Electro-Optics)"
+track: "Fundamental Science"
+session: "Non-Hermitian Material and Nonlocal Metasurfaces (FW1E)"
+date: 2026-05-20
+location: "Charlotte, North Carolina, USA"
 highlight: true
 ---
 

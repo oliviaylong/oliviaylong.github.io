@@ -52,7 +52,13 @@
       </p>
     {% endif %}
     {% if post.venue %}
-      <p class="archive__item-excerpt" itemprop="description" style="font-style:italic; margin-top:0;">{{ post.venue }}</p>
+      <p class="archive__item-excerpt" itemprop="description" style="font-style:italic; margin-top:0; margin-bottom:0;">{{ post.venue }}</p>
+    {% endif %}
+    {% if post.track %}
+      <p class="archive__item-excerpt" style="font-style:italic; margin-top:0; margin-bottom:0;">{{ post.track }}</p>
+    {% endif %}
+    {% if post.session %}
+      <p class="archive__item-excerpt" style="margin-top:0;">Session: {{ post.session }}</p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
